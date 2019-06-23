@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+.sign {
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+
+/* Header */
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+    padding: 8px 0
+}
+
+#header-sign {
+    background-color: #007BFF;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-size: 16px
+}
+
+#logo h1 {
+    color: black;
+    font-size: 20px;
+    padding: 5px 0
+}
+
+
+/* Section-signup*/
+
+#section-signup {
+    background-image: url(../images/bg-masthead.jpg);
+    background-color: #212529;
+    width: 100vw;
+    padding: 250px 0
+}
+
+#section-signup h1 {
+    color: #fff;
+    font-size: 40px;
+    font-size: 45px;
+    text-align: center
+}
+
+#section-signup input {
+    padding: 10px 230px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px
+}
+
+#section-signup a {
+    background-color: #007bff;
+    padding: 16px 40px;
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+#container-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin: auto auto
+}
+
+#input-a {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center
+}
+
+
+/* Section-andvantages*/
+
+#section-advantages i {
+    font-size: 60px;
+    color: #007BFF;
+    padding-top: 70px;
+}
+
+#section-advantages h3 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#section-advantages .container-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+}
+
+#section-advantages .container-ready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    margin: 0 75px
+}
+
+#section-advantages .container-easyuse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+}
+
+#section-advantages .div-advantages {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center
+}
+
+#section-advantages .container-responsive:hover i {
+    font-size: 65px
+}
+
+#section-advantages .container-ready:hover i {
+    font-size: 65px
+}
+
+#section-advantages .container-easyuse:hover i {
+    font-size: 65px
+}
+
+
+/* Section-information*/
+
+#section-information .text {
+    width: 100vw;
+    display: flex
+}
+
+.text-content {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 5%;
+    font-size: 20px
+}
+
+.text img {
+    width: 50vw;
+    height: 30rem
+}
+
+.text {
+    height: 30rem
+}
+
+
+/* Section-people */
+
+#section-people {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.container-people {
+    width: 100vw;
+    text-align: center;
+    /* padding-top: 100px; */
+    font-size: 32px
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 17%;
+    margin: 25px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px
+}
+
+.people img {
+    border-radius: 50%
+}
+
+.people h4 {
+    margin: 15px 0;
+    font-size: 20px
+}
+
+.people p {
+    text-align: center
+}
+
+
+/* Section-signup2*/
+
+#section-signup2 {
+    background-image: url(../images/bg-masthead.jpg);
+    padding: 110px 0
+}
+
+#section-signup2 input {
+    padding: 10px 230px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px
+}
+
+#section-signup2 a {
+    background-color: #007bff;
+    padding: 16px 40px;
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+#section-signup2 h3 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+#input-b {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+
+/*Footer*/
+
+Footer {
+    padding: 60px 0
+}
+
+#footer ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around
+}
+
+#footer ul li {
+    margin: 0 5px;
+}
+
+#footer ul li:hover {
+    text-decoration: underline
+}
+
+#social-icons {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    color: skyblue
+}
+
+#social-icons li {
+    margin: 0 15px
+}
+
+#social-icons a:hover {
+    color: #007bff
+}
